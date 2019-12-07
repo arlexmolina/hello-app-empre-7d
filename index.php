@@ -4,7 +4,7 @@
  </head>
  <body>
  <?
-php echo '<p>Hola Mauricio</p>' . $HTTP_GET_VARS["name"]; 
+php echo '<p>Hola Mauricio</p> ' . $_GET["name"]; 
 ?>
 
  </body>
